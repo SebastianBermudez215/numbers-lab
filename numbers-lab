@@ -1,0 +1,40 @@
+let firstNumber = prompt("Please put in a number")
+
+let secondNumber = prompt('Please put in another number')
+
+let total = prompt( parseInt(secondNumber) + parseInt(firstNumber) );
+
+//math operations// 
+
+let a = prompt('Please put in a number')
+
+let b = prompt('Please put in another number')
+
+let addition = prompt( parseInt( a ) + parseInt( b ) );
+
+let subtraction = prompt( parseInt( a ) - parseInt( b ) );
+
+let multiplication = prompt( parseInt( a ) * parseInt( b ) );
+
+let division = prompt( parseInt( a ) / parseInt( b ) );
+
+let exponent = prompt("The result of " + a + " to the power of " + b + " is: " + Math.pow(a, b) );
+
+//random number between 1 and 35//
+
+Math.floor(Math.random() * 35) + 1;
+
+//floating point number rounded down to the nearest integer.//
+
+Math.floor(12.6);
+
+
+//math power method//
+
+let firstPowNumber = prompt("Please put in a number")
+
+let secondPowNumber = prompt("Please put ina second number")
+
+let result = Math.pow( parseInt(firstPowNumber), parseInt(secondPowNumber) )
+
+alert(`The result is ${result}.` + parseInt(firstPowNumber) + " to the " + parseInt(secondPowNumber) + "th power.")
